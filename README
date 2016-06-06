@@ -1,0 +1,5 @@
+For security purposes, the sender address of a message must be one of the following:
+
+    The Gmail or Google Apps Account of the user who is currently signed in
+    Any email address of the form anything@[APP_NAME].appspotmail.com or anything@[APP_ALIAS].appspotmail.com
+    Any email address listed in the Cloud Platform Console under Email API Authorized Senders

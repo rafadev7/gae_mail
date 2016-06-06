@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{.Title}}</title>
+    <style type="text/css">
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+    padding: 8px;
+    margin: 8px;
+}
+    </style>	
+  </head>
+  <body>
+    <a class="button" href="home.html">Upload document</a>
+	<br><br>	
+	<hr>
+	<br>
+	<form enctype="multipart/form-data" action="/" method="post">
+    <p><strong>File:</strong> <input type="file" name="uploadfile" /></p>
+	  <p><strong>Email address:</strong> <input type="text" name="emailaddress" value="{{.EmailAddress}}" /></p>
+	  <p><input name="subject" type="submit" value="Email file" /></p>
+	</form>
+	<br>
+	<hr>
+  </body>
+</html>
